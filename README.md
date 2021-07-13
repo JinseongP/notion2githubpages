@@ -12,10 +12,11 @@ Easy python implementation of automatically chaninging notion markdown zip file 
 
 1. [Notion page] Press the 'ㆍㆍㆍ' button (at the top right corner) on your notion page.
 2. [Notion page] Press the 'Export' button and set the 'Export format' as Markdown & CVS and 'Include content' as everything.
+![notion_page.png](./assets/images/notion_page.png)
 3. Move zip files (Two or more are possible) to the base folder of your github io repo.
 4. Copy notion2githubpages.py to the same base folder and command notion2githubpages.py.
 5. Enter the Title, Excerpt, Category and Tags(separated by '/') as inputs.
-6. It will automatically convert to github pages style markdown with 
+6. It will automatically convert to github pages style markdown with
 
 ### :star: Notes
 1. I use the jekyll with [minimal mistake](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/), so I cannot guarantee for other environments.
