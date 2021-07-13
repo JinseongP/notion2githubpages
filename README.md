@@ -1,5 +1,6 @@
 # notion to github pages with python
 Easy python implementation of automatically chaninging notion markdown zip file to github pages.
+notion에서 작성된 글을 자동으로 github pages에 맞게 변환해주는 python 파일입니다.
 
 ## Requirements and Installation
 
