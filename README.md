@@ -20,5 +20,5 @@ Easy python implementation of automatically chaninging notion markdown zip file 
 ### :star: Notes
 1. I use the jekyll with [minimal mistake](https://mademistakes.com/work/minimal-mistakes-jekyll-theme/), so I cannot guarantee for other environments.
 2. I couldn't find a python implementation for notion2githubpages, but if there is, please let me know.
-3. Refer [shell implementation](https://github.com/uoneway/notion-to-github-pages) and [guideline](https://swieeft.github.io/2020/03/02/NotionToGithubioPorting.html).
-4. Refer [notion2tistory](https://www.notion.so/Notion2Tistory-f46185df1db14f8eb571d366b66c5e9c).
+3. Refer [shell implementation](https://github.com/uoneway/notion-to-github-pages) for shell implementation and [guideline](https://swieeft.github.io/2020/03/02/NotionToGithubioPorting.html) for checking md differences.
+4. Refer [notion2tistory](https://www.notion.so/Notion2Tistory-f46185df1db14f8eb571d366b66c5e9c) for notion to tistory.
