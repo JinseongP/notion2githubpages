@@ -8,9 +8,10 @@ import zipfile
 import glob
 import time
 import shutil
+import os
 
 
-# In[2]:
+# In[ ]:
 
 
 target="Export-*.zip"
@@ -22,8 +23,13 @@ path_list = glob.glob(target)
 posts_folder_path='_posts/'
 images_folder_path='assets/images/'
 
+if not os.path.exists(posts_folder_path):
+    os.makedirs(posts_folder_path)
+if not os.path.exists(images_folder_path):
+    os.makedirs(images_folder_path)
 
-# In[31]:
+
+# In[ ]:
 
 
 for path in path_list:    
@@ -81,4 +87,10 @@ for path in path_list:
     shutil.move(post, posts_folder_path+filename+".md")
     if images is not None:
         shutil.move(exported_filename, images_folder_path+filename)
+
+
+# In[ ]:
+
+
+
 
