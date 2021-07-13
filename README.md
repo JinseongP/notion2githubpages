@@ -1,4 +1,4 @@
-# notion2githubpages
+# notion to github pages with python
 Easy python implementation of automatically chaninging notion markdown zip file to github pages.
 
 ## Requirements and Installation
