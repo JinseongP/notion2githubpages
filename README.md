@@ -11,7 +11,7 @@ notion에서 작성된 글을 자동으로 github pages에 맞게 변환해주�
 - libraries: zipfile, glob, time, shutil, os
 
 ### :star: How to Use
-
+![notion_page.png](./assets/images/notion_page.png)
 1. [Notion page] Press the 'ㆍㆍㆍ' button (at the top right corner) on your notion page.
 2. [Notion page] Press the 'Export' button and set the 'Export format' as Markdown & CVS and 'Include content' as everything.
 3. [Github repo] Move zip files (Two or more are possible) to the root folder of your github io repo (without changing file names).
