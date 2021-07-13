@@ -34,5 +34,5 @@ notion에서 작성된 글을 자동으로 github pages에 맞게 변환해주�
 4. Refer [notion2tistory](https://www.notion.so/Notion2Tistory-f46185df1db14f8eb571d366b66c5e9c) for the emplementation of notion to tistory.
 
 ### :star: Updates
-1. v0.1 implementation of basic functions (may not work for every situation)
+1. v0.1: implementation of basic functions (may not work for every situation)
 
