@@ -9,6 +9,7 @@ import glob
 import time
 import shutil
 import os
+import re
 
 
 # In[2]:
@@ -44,17 +45,18 @@ for path in path_list:
     exported_filename = post.split('.')[0]
  
     ########################### input
-    print("Title for "+post+": ")
+    
+    print("Title for "+exported_filename+": ")
     title = input ()
-    print("Excerpt for "+post+": ")
+    print("Excerpt for "+exported_filename+": ")
     excerpt = input()#'exp'
-    print("Category for "+post+": ")
+    print("Category for "+exported_filename+": ")
     categories = input()
-    print("Tags (separated by '/') for "+post+": ")
+    print("Tags (separated by '/') for "+exported_filename+": ")
     tags = input()
     tags = tags.split('/')
     
-    filename = str(date.tm_year)+"-"+str(date.tm_mon)+"-"+str(date.tm_mday)+"-"+title
+    filename = str(date.tm_year)+"-"+str(date.tm_mon)+"-"+str(date.tm_mday)+"-"+re.sub('[\/:*?"<>|]','',title)
     ###########################
 
 

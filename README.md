@@ -8,7 +8,7 @@ notion에서 작성된 글을 자동으로 github pages에 맞게 변환해주�
 ### :star: Requirements
 
 - Python
-- libraries: zipfile, glob, time, shutil, os
+- libraries: zipfile, glob, time, shutil, os, re
 
 ### :star: How to Use
 ![notion_page.png](./assets/images/notion_page.png)
@@ -32,7 +32,8 @@ notion에서 작성된 글을 자동으로 github pages에 맞게 변환해주�
 2. I couldn't find a python implementation for notion2githubpages, but if there is, please let me know.
 3. Refer [shell implementation](https://github.com/uoneway/notion-to-github-pages) for the shell implementation and [guideline](https://swieeft.github.io/2020/03/02/NotionToGithubioPorting.html) for checking the github markdown differences.
 4. Refer [notion2tistory](https://www.notion.so/Notion2Tistory-f46185df1db14f8eb571d366b66c5e9c) for the emplementation of notion to tistory.
+5. Refer [mathematics for github pages](https://mkkim85.github.io/blog-apply-mathjax-to-jekyll-and-github-pages/) for mathematical formulations with MathJax.
 
 ### :star: Updates
 1. v0.1: implementation of basic functions (may not work for every situation)
-2. v0.2(will be updated): image size and etc.
+2. v0.2(will be updated): image size and code blocks
