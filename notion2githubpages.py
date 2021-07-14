@@ -47,13 +47,13 @@ for path in path_list:
     ########################### input
     
     print("Title for "+exported_filename+": ")
-    title = input ()
+    title = re.sub(':',';',input ())
     print("Excerpt for "+exported_filename+": ")
-    excerpt = input()#'exp'
+    excerpt = re.sub(':',';',input ())
     print("Category for "+exported_filename+": ")
-    categories = input()
+    categories = re.sub(':',';',input ())
     print("Tags (separated by '/') for "+exported_filename+": ")
-    tags = input()
+    tags = re.sub(':',';',input ())
     tags = tags.split('/')
     
     filename = str(date.tm_year)+"-"+str(date.tm_mon)+"-"+str(date.tm_mday)+"-"+re.sub('[\/:*?"<>|]','',title)

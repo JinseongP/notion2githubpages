@@ -36,4 +36,4 @@ notion에서 작성된 글을 자동으로 github pages에 맞게 변환해주�
 
 ### :star: Updates
 1. v0.1: implementation of basic functions (may not work for every situation)
-2. v0.2(will be updated): image size and code blocks
+2. v0.2(will be updated): image size, code blocks, callout
