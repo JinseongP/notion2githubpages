@@ -24,7 +24,7 @@ notion에서 작성된 글을 자동으로 github pages에 맞게 변환해주�
 2. [노션 페이지] 'Export' 버튼을 누르고 'Export format'으로 Markdown & CVS 을 선택하고 'Include content' 을 everything로 설정합니다.
 3. github io repo의 root 폴더에 다운받은 zip파일들(여러 개 가능)을 옮깁니다. (파일 이름 변경 금지)
 4. notion2githubpages.py를 같은 root folder에 복사 후 'python notion2githubpages.py'를 입력합니다.
-5. Title(제목), Excerpt(발췌-제목 아래에 표시되는 내용), Category(카테고리)와 Tags(태그, '/'로 구분해서 여러 개 입력 가능)을 입력합니다.
+5. Title(제목-영어로 시작해야함), Excerpt(발췌-제목 아래에 표시되는 내용), Category(카테고리)와 Tags(태그, '/'로 구분해서 여러 개 입력 가능)을 입력합니다.
 6. 자동적으로 md 파일은  posts_folder_path='_posts/'에 저장되고 이미지는 images_folder_path='assets/images/'에 저장됩니다.
 
 ### :star: Notes
@@ -36,4 +36,4 @@ notion에서 작성된 글을 자동으로 github pages에 맞게 변환해주�
 
 ### :star: Updates
 1. v0.1: implementation of basic functions (may not work for every situation)
-2. v0.2(will be updated): image size, code blocks, callout
+2. v0.2(will be updated): image size, code blocks, callout, 한글 제목 
